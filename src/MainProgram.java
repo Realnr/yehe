@@ -20,4 +20,18 @@ public class MainProgram {
         }
         return j;
     }
+    public static int powerOfTwo(int p){
+        int result;
+        if (p>= 0){
+            result = p*p;
+        }
+        return p;
+    }
+    public static int sumUpPowerOfTwo(int n){
+        int result = 0;
+        for(int i = 0; i <= n;i++){
+            result =+ i*i;
+        }
+        return result;
+    }
 }
